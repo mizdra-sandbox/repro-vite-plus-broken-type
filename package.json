@@ -1,0 +1,16 @@
+{
+  "name": "repro-vite-plus-broken-type",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b tsconfig.build.json",
+    "typecheck": "tsc -b"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "~5.9.3",
+    "vite-plus": "^0.1.13"
+  },
+  "packageManager": "npm@11.12.0"
+}

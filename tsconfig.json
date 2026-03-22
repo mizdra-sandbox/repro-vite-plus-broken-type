@@ -1,0 +1,13 @@
+// tsconfig.json for TypeScript files outside the src directory
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "target": "ES2023",
+    "lib": ["ESNext"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    "noEmit": true
+  },
+  "references": [{ "path": "./tsconfig.build.json" }]
+}
