@@ -1,3 +1,5 @@
+# ARCHIVED: This issue is fixed by https://github.com/voidzero-dev/vite-plus/pull/1232
+
 ## Description
 
 Type definitions for `vite-plus` are broken when `--moduleResolution NodeNext` is specified.
